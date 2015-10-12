@@ -1,0 +1,16 @@
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+# This file overwrites .gitignore. Only publish to npm what is required to make the package work.
+coverage
+docs
+src
+scripts
+test
+webpack
+.babelrc
+.editorconfig
+.eslintignore
+.eslintrc
+.gitattributes
+.circle.yml
+esdoc.json
+karma.config.js

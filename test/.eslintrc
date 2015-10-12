@@ -1,0 +1,3 @@
+{
+  "extends": "fside/lib/test-karma"
+}
