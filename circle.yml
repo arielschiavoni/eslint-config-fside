@@ -1,9 +1,9 @@
-language: node_js
-node_js:
-  - '4.1.0'
-cache:
-  directories:
-  - node_modules
+machine:
+  node:
+    version: 0.12
+dependencies:
+  cache_directories:
+    - "node_modules"
 deployment:
   release:
     tag: /v[0-9]+(\.[0-9]+)*/
