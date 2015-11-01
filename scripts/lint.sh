@@ -6,6 +6,8 @@ if [ ! -d "node_modules/eslint-config-fside" ]; then
   ln -s .. node_modules/eslint-config-fside
 fi
 
+npm run build
+
 `npm bin`/eslint --ext .js .
 
 if [ $? = 0 ]; then

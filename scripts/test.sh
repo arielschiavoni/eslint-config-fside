@@ -9,6 +9,8 @@ if [ ! -d "node_modules/eslint-config-fside" ]; then
   ln -s .. node_modules/eslint-config-fside
 fi
 
+npm run build
+
 # npm test can't lint when CI is enabled because it instruments code!
 if [ "$NODE_ENV" = "ci" ]; then
   npm run lint
