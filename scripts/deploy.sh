@@ -4,7 +4,14 @@ echo "npm install"
 echo "==========================================================="
 npm install --ignore-scripts
 
-echo -e "$NPM_USERNAME\n$NPM_PASSWORD\n$NPM_EMAIL"
+set -o nounset
+set -o errexit
+
+npm login <<!
+$NPM_USERNAME
+$NPM_PASSWORD
+$NPM_EMAIL
+!
 
 echo "npm publish"
 echo "==========================================================="
