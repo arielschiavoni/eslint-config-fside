@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fside",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Frontendside JavaScript Style Guide",
   "main": "lib/main.js",
   "scripts": {
