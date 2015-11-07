@@ -1,6 +1,8 @@
 # Frontendside JavaScript Style Guide
 > This package provides Frontendside's .eslintrc as an extensible shared config.
 
+[![Circle CI](https://circleci.com/gh/arielschiavoni/eslint-config-fside.svg?style=svg)](https://circleci.com/gh/arielschiavoni/eslint-config-fside)
+
 ## Usage
 Six different ESLint configurations are exported for your usage.
 
